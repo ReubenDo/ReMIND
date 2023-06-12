@@ -1,0 +1,37 @@
+{
+  "ContentCreatorName": "BrainLab",
+  "ClinicalTrialSeriesID": "Session1",
+  "ClinicalTrialTimePointID": "1",
+  "SeriesDescription": "Segmentation",
+  "SeriesNumber": "301",
+  "InstanceNumber": "1",
+  "segmentAttributes": [
+    [
+      {
+        "labelID": 1,
+        "SegmentDescription": "Cerebrum",
+        "SegmentAlgorithmType": "AUTOMATIC",
+        "SegmentAlgorithmName": "BrainLab",
+        "SegmentedPropertyCategoryCodeSequence": {
+          "CodeValue": "123037004",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Anatomical Structure"
+        },
+        "SegmentedPropertyTypeCodeSequence": {
+          "CodeValue": "12738006",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Brain"
+        },
+        "recommendedDisplayRGBValue": [
+          250,
+          250,
+          225
+        ]
+      }
+    ]
+  ],
+  "ContentLabel": "SEGMENTATION",
+  "ContentDescription": "Image segmentation",
+  "ClinicalTrialCoordinatingCenterName": "dcmqi",
+  "BodyPartExamined": "BRAIN"
+}

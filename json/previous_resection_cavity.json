@@ -1,0 +1,41 @@
+{
+  "ContentCreatorName": "BWH",
+  "ClinicalTrialSeriesID": "Session1",
+  "ClinicalTrialTimePointID": "1",
+  "SeriesDescription": "Segmentation",
+  "SeriesNumber": "302",
+  "InstanceNumber": "1",
+  "segmentAttributes": [
+    [
+      {
+        "labelID": 1,
+        "SegmentDescription": "Previous resection cavity",
+        "SegmentAlgorithmType": "MANUAL",
+        "SegmentedPropertyCategoryCodeSequence": {
+          "CodeValue": "49755003",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Morphologically Altered Structure"
+        },
+        "SegmentedPropertyTypeCodeSequence": {
+          "CodeValue": "807005",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Excision of brain"
+        },
+        "AnatomicRegionSequence": {
+          "CodeValue": "12738006",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Brain"
+        },
+        "recommendedDisplayRGBValue": [
+          188,
+          65,
+          28
+        ]
+      }
+    ]
+  ],
+  "ContentLabel": "SEGMENTATION",
+  "ContentDescription": "Image segmentation",
+  "ClinicalTrialCoordinatingCenterName": "dcmqi",
+  "BodyPartExamined": "BRAIN"
+}

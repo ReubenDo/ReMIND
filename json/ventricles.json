@@ -1,0 +1,37 @@
+{
+  "ContentCreatorName": "BrainLab",
+  "ClinicalTrialSeriesID": "Session1",
+  "ClinicalTrialTimePointID": "1",
+  "SeriesDescription": "Segmentation",
+  "SeriesNumber": "300",
+  "InstanceNumber": "1",
+  "segmentAttributes": [
+    [
+      {
+        "labelID": 1,
+        "SegmentDescription": "Ventricles",
+        "SegmentAlgorithmType": "AUTOMATIC",
+        "SegmentAlgorithmName": "BrainLab",
+        "SegmentedPropertyCategoryCodeSequence": {
+          "CodeValue": "123037004",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Anatomical Structure"
+        },
+        "SegmentedPropertyTypeCodeSequence": {
+          "CodeValue": "35764002",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Brain ventricle"
+        },
+        "recommendedDisplayRGBValue": [
+          88,
+          106,
+          215
+        ]
+      }
+    ]
+  ],
+  "ContentLabel": "SEGMENTATION",
+  "ContentDescription": "Image segmentation",
+  "ClinicalTrialCoordinatingCenterName": "dcmqi",
+  "BodyPartExamined": "BRAIN"
+}

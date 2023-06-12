@@ -1,0 +1,41 @@
+{
+  "ContentCreatorName": "BWH",
+  "ClinicalTrialSeriesID": "Session1",
+  "ClinicalTrialTimePointID": "1",
+  "SeriesDescription": "Segmentation",
+  "SeriesNumber": "303",
+  "InstanceNumber": "1",
+  "segmentAttributes": [
+    [
+      {
+        "labelID": 1,
+        "SegmentDescription": "Tumor",
+        "SegmentAlgorithmType": "MANUAL",
+        "SegmentedPropertyCategoryCodeSequence": {
+          "CodeValue": "49755003",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Morphologically Altered Structure"
+        },
+        "SegmentedPropertyTypeCodeSequence": {
+          "CodeValue": "115240006",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Glioma"
+        },
+        "AnatomicRegionSequence": {
+          "CodeValue": "12738006",
+          "CodingSchemeDesignator": "SCT",
+          "CodeMeaning": "Brain"
+        },
+        "recommendedDisplayRGBValue": [
+          216,
+          191,
+          216
+        ]
+      }
+    ]
+  ],
+  "ContentLabel": "SEGMENTATION",
+  "ContentDescription": "Image segmentation",
+  "ClinicalTrialCoordinatingCenterName": "dcmqi",
+  "BodyPartExamined": "BRAIN"
+}
