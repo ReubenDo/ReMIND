@@ -1,7 +1,8 @@
 # ReMIND
-Scripts used for the conversion of the NRRD data to DICOM data
+These repository contains the script used to convert the ReMIND NRRD data into DICOM data.
 
-
+Here is an example of case DICOM folder loaded in Slicer:
+![image](https://github.com/ReubenDo/ReMIND/assets/17268715/8b057d4c-ab50-4884-b509-a615b7206c1c)
 
 ## Conversion of NRRD images to DICOM images
 
@@ -28,10 +29,4 @@ On Windows:
 To process segmentations:
 
 ```python conversion_seg.py --path_nrrd [PATH_TCIA_NRRD] --path_dicom ./dicom --img2seg ../dcmqi-1.2.4-mac/bin/itkimage2segimage```
-
-
-
-### Loading the DICOM files in 3D Slicer:
-Drop a case folder, load the images and enjoy!
-![image](https://github.com/ReubenDo/ReMIND/assets/17268715/8b057d4c-ab50-4884-b509-a615b7206c1c)
 
